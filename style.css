@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.navbar{
+    height: 60PX;
+    background-color:#131921;
+    COLOR: WHITE;
+    display: flex;
+    align-items: center;
+    margin-left: none;
+    justify-content:space-evenly;
+    
+}
+
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    
+    background-image: url("header-images/amazon_logo.png");
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+   
+}
+
+/**box-2**/
+
+
+.add-icon{
+    display: flex;
+    
+}
+.add-first{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left:4px;
+}
+/***box3***/
+.nav-search-box{
+    display: flex;
+    width: 820px;
+    height: 40px;
+    
+    background-color: pink;
+    border-radius:5px;
+}
+
+.select{
+    width:50px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    text-align: center;
+    background-color:#e6e6e6;
+    border:none;
+}
+.searchbox{
+flex:1;
+border:none;
+font-size:15px;
+}
+.search-button{
+   
+    width:45px;
+    height:100%;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border: none;
+    background-color: #FEBD69;
+}
+.search-icon i{
+font-size: 30px;
+}
+/**************box4**********/
+.nav-lang-button{
+    width:60px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-lang-button img{
+    width:25px;
+    height:20px;
+}
+/***box5******/
+.line1{
+    font-size:12px;
+    color:white;
+   padding-left: 5px;
+}
+
+.select-1 {
+    background-color: transparent;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+.down-arrow-line2{
+display:flex;
+}
+/****lastbox*****/
+
+.nav-shop-cart img{
+    width:40px;
+    height:30px;
+}
+.nav-shop-cart{
+    font-size: 1rem;
+     font-weight:700;
+     display: flex;
+     align-items: center;
+}
+/****************pannel************/
+.pannel{
+    color:white;
+    align-items: center;
+    justify-content: start;
+    background-color: #232F3E;
+    height:39px;
+    display:flex;
+    padding-left: 20px;
+}
+.pannel-options p{
+    justify-content: start;
+    display: inline;
+    padding-left:12px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.menu{
+   justify-content: space-between;
+    padding-right:10px;
+}
